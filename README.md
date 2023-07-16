@@ -23,3 +23,7 @@
      + Output Layer: 1 neuron (for binary classification)
   - The target model performance of higher than 75% accuracy was not achieved.
   - To increase model performance, I adjusted the number of hidden layers and neurons in each hidden layer, and epochs.
+
+3) Summary:
+   Through hyperparameter tuning and optimization, the model was still not able to learn and capture complex patterns in the data, leading to improved predictive accuracy.
+   In terms of recommendations for a different model approach, an alternative classification algorithm that could be considered is a Random Forest classifier since this is an ensemble learning method that combines multiple decision trees to make predictions, and can handle complex non-linear relationships between features and the target variable. 
